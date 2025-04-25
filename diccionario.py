@@ -31,4 +31,9 @@ diccionario = {
     "pan": "bread",
     "dia": "day"
 }
-print(diccionario["manzana"])
+#diccionario["numero"] = "#"
+#print(diccionario["numero"])
+#diccionario["negro"] = "black"
+#print(diccionario)
+for clave, valor in diccionario.items(): 
+    print(f"palabra: {clave}")
